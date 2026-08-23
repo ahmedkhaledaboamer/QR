@@ -9,15 +9,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg-0:#0A0A0B;
-    --bg-1:#131315;
-    --panel:#17171A;
-    --panel-border:#26262A;
+    --bg-0:#F8F7F3;
+    --bg-1:#FFFFFF;
+    --panel:#FFFFFF;
+    --panel-border:#E8E3D7;
     --gold-1:#F0D183;
     --gold-2:#C9962E;
     --gold-3:#8A6415;
-    --text-hi:#F5F2EA;
-    --text-lo:#9C9A96;
+    --text-hi:#292722;
+    --text-lo:#77736B;
   }
 
   *{box-sizing:border-box; margin:0; padding:0;}
@@ -25,7 +25,7 @@
   html,body{
     min-height:100vh;
     background:
-      radial-gradient(60% 50% at 50% 0%, rgba(201,150,46,0.14), transparent 70%),
+      radial-gradient(60% 50% at 50% 0%, rgba(201,150,46,0.18), transparent 70%),
       var(--bg-0);
     color:var(--text-hi);
     font-family:'Tajawal','Space Grotesk',sans-serif;
@@ -96,19 +96,19 @@
     width:150px;
     height:150px;
     border-radius:50%;
-    background:radial-gradient(circle at 35% 30%, #1E1E21, #0E0E10 72%);
+    background:radial-gradient(circle at 35% 30%, #FFFDF7, #F1E9D7 72%);
     border:1px solid var(--panel-border);
     display:flex;
     align-items:center;
     justify-content:center;
-    box-shadow:0 0 0 1px rgba(240,209,131,0.06), 0 20px 40px -18px rgba(0,0,0,0.8);
+    box-shadow:0 0 0 1px rgba(240,209,131,0.18), 0 20px 40px -18px rgba(100,80,35,0.28);
   }
 
   .logo-disc img{
     width:104px;
     height:auto;
     display:block;
-    filter:drop-shadow(0 4px 10px rgba(0,0,0,0.5));
+    filter:drop-shadow(0 4px 10px rgba(100,80,35,0.2));
   }
 
   /* ---------- Title ---------- */
@@ -173,7 +173,7 @@
   .link-card:hover{
     transform:translateY(-2px);
     border-color:var(--gold-2);
-    background:#1B1B1E;
+    background:#FFFDF7;
   }
   .link-card:hover::before{ opacity:1; }
 
@@ -182,7 +182,7 @@
     width:38px;
     height:38px;
     border-radius:10px;
-    background:#0F0F11;
+    background:#FBF8EF;
     border:1px solid var(--panel-border);
     display:flex;
     align-items:center;
